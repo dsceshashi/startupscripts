@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /workspace
 apt-get update
 apt-get install -y ffmpeg
 git clone https://github.com/ramki982/h2ogpt.git
